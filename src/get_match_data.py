@@ -25,7 +25,7 @@ unique_match_ids = match_df["match_id"].dropna().unique()
 rows = []
 
 # önce test için ilk 100 unique maç
-for i, match_id in enumerate(unique_match_ids[:100], start=1):
+for i, match_id in enumerate(unique_match_ids[:300], start=1):
     url = f"https://{REGION}.api.riotgames.com/lol/match/v5/matches/{match_id}"
 
     r = requests.get(url, headers=headers)
