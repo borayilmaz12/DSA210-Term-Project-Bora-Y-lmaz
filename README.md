@@ -15,3 +15,11 @@ The goal is to investigate how player and match-related features such as KDA, vi
 - `src/`: Python scripts for data collection
 - `data/`: raw and processed datasets
 - `notebooks/`: analysis notebooks
+
+## EDA and Hypothesis Testing
+
+Exploratory Data Analysis (EDA) was conducted to examine distributions and relationships between variables such as kills, KDA, vision score, and damage.
+
+Statistical hypothesis tests were performed:
+- T-test to compare vision scores between winning and losing matches
+- Chi-square test to evaluate the relationship between player tier and match outcome
