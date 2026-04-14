@@ -17,7 +17,7 @@ df = pd.read_csv("data/raw/players.csv")
 
 all_rows = []
 
-# önce test için sadece ilk 50 oyuncu
+# önce test için sadece ilk 200 oyuncu
 test_players = df["puuid"].dropna().head(200)
 
 for i, puuid in enumerate(test_players, start=1):

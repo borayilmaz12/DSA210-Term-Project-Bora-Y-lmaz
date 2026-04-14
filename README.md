@@ -10,6 +10,23 @@ The goal is to investigate how player and match-related features such as KDA, vi
 - `data/`: raw and processed datasets
 - `notebooks/`: analysis notebooks
 
+## How to Run
+
+1. Create a .env file with your Riot API key:
+   RIOT_API_KEY=your_key_here
+   PLATFORM_REGION=euw1
+   REGIONAL_ROUTING=europe
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Run scripts in order:
+   - src/get_leaderboard.py
+   - src/get_match_ids.py
+   - src/get_match_data.py
+
+4. Open notebooks/eda.ipynb for analysis.
+
 ## EDA and Hypothesis Testing
 
 Exploratory Data Analysis (EDA) was conducted to examine distributions and relationships between variables such as kills, KDA, vision score, and damage.
