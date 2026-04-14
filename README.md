@@ -32,3 +32,11 @@ https://developer.riotgames.com/apis
 Missing values were checked and handled appropriately. 
 Duplicate entries were removed. 
 Additional features such as KDA and per-minute statistics were computed to enrich the dataset.
+
+## Milestone 1
+This milestone includes:
+- data collection from Riot API
+- processed dataset construction
+- EDA
+- hypothesis testing
+- revised project proposal
