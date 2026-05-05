@@ -1,7 +1,11 @@
 pandas
+numpy
 requests
 matplotlib
 seaborn
 scipy
+sckit-learn
 jupyter
+notebook
 python-dotenv
+ipykernel

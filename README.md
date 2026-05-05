@@ -57,3 +57,33 @@ This milestone includes:
 - EDA
 - hypothesis testing
 - revised project proposal
+
+## Milestone 2: Machine Learning Methods
+
+For the May 5 milestone, I expanded the analysis based on the previous feedback and applied supervised machine learning methods to predict match outcome.
+
+### Improvements after feedback
+- Added role-level EDA
+- Added champion-level EDA
+- Added damage and damage-per-minute analysis
+- Added per-minute features to control for game duration
+- Improved hypothesis test interpretation with sample sizes, assumptions, and one-sided directional testing
+
+### Machine Learning Models
+The target variable is `win`, representing match outcome.
+
+Models used:
+- Logistic Regression
+- Decision Tree Classifier
+- k-Nearest Neighbors
+- Random Forest Classifier (optional/bonus)
+
+### Evaluation Metrics
+Models were evaluated using:
+- Accuracy
+- Precision
+- Recall
+- F1 score
+- ROC-AUC
+- Confusion matrix
+
